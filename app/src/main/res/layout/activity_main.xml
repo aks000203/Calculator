@@ -25,25 +25,29 @@
                 android:text="7"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="numBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnNum8Id"
                 android:text="8"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="numBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnNum9Id"
                 android:text="9"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="numBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnDivId"
-                android:text="/"
+                android:text="/"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="oprBtnOnClickHandler"/>
         </TableRow>
         <TableRow>
             <Button
@@ -51,25 +55,29 @@
                 android:text="4"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="numBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnNum5Id"
                 android:text="5"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="numBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnNum6Id"
                 android:text="6"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="numBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnMulId"
-                android:text="*"
+                android:text="*"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="oprBtnOnClickHandler"/>
         </TableRow>
         <TableRow>
             <Button
@@ -77,25 +85,29 @@
                 android:text="1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="numBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnNum2Id"
                 android:text="2"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="numBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnNum3Id"
                 android:text="3"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="numBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnSubId"
                 android:text="-"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="oprBtnOnClickHandler"/>
         </TableRow>
         <TableRow>
             <Button
@@ -103,25 +115,29 @@
                 android:text="0"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="numBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnClearId"
                 android:text="C"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="clrBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnEqualId"
                 android:text="="
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="oprBtnOnClickHandler"/>
             <Button
                 android:id="@+id/btnAddId"
                 android:text="+"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="oprBtnOnClickHandler"/>
         </TableRow>
     </TableLayout>
 </RelativeLayout>
